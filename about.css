@@ -1,0 +1,112 @@
+body {
+    background-image: url('about.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 60px; /* Adjust this value based on the height of your nav bar */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+}
+
+
+
+.social-media {
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media a {
+    margin-bottom: 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav form {
+    display: flex;
+    justify-content: flex-end; /* Align form to the right */
+    margin-top: 10px;
+    margin-right: 20px; /* Optional: Add some right margin for spacing */
+}
+
+nav form input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+nav form button {
+    padding: 5px 10px;
+}
+h1 {
+    font-weight: bold;
+    font-size: 54px; /* Optional: Adjust the font size */
+    /* text-align: center; Optional: Center align the header text */
+    padding: 15px;
+    border-radius: 60px;
+    max-width: 300px;
+    margin-left: 80px;
+    margin-top: 80px; /* Optional: Add some top margin */
+    color: white;
+    font-style: italic;
+}
+
+section p {
+    /* border: 2px solid #333; Border around the text */
+    padding: 15px;
+    color: white; /* Padding inside the box */
+    /* background-color: rgba(255, 255, 255, 0.8); Semi-transparent background */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 1000px; /* Optional: Limit the width of the box */
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 200px; /* Center the box */
+    font-size: 20px;
+}
+.team {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    max-width: 800px;
+}
+.team h1{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.team p{
+    font-size: 16px;
+    margin-right: 20px;
+    margin: 20px;
+    margin-left: 80px;
+
+}
